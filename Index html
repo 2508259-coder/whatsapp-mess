@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WhatsApp</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #e9f5ed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.card {
+  background: white;
+  width: 90%;
+  max-width: 360px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px #0002;
+  text-align: center;
+}
+.header {
+  background: #075e54;
+  color: white;
+  padding: 22px;
+  font-size: 23px;
+  font-weight: bold;
+}
+.content {
+  padding: 35px 25px;
+}
+.icon {
+  font-size: 48px;
+  color: #128c7e;
+}
+button {
+  background: #128c7e;
+  color: white;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 17px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="header">☎ WhatsApp</div>
+  <div class="content">
+    <div class="icon">✓</div>
+    <h3>Device Linking</h3>
+    <button onclick="alert('You have successfully authorised to link your WhatsApp to @mia.yme phone')">
+      Click Here
+    </button>
+  </div>
+</div>
+
+</body>
+</html>
